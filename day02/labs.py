@@ -13,11 +13,19 @@ multiple_line_string = '''
                         '''
 print(multiple_line_string)
 
+multiple_line_string = ("Whether compiled or interpreted, "
+	+
+"it's all PROGRAMMING!")
+
+mtpls = "".join(multiple_line_string)
+print(mtpls)
+
 muliple_line_string02 = "I am" + " learning Python3."
 print(muliple_line_string02)
 
 length_string = "Hello Python"
-print(len(length_string))
+los = len(length_string)
+print("the length of the string is {}"  .format(los))
 
 hello_string = "Hello, " + "World!"
 print(hello_string)
