@@ -13,15 +13,11 @@ multiple_line_string = '''
                         '''
 print(multiple_line_string)
 
-multiple_line_string = ("Whether compiled or interpreted,"
+multiple_line_string02 = ("Whether compiled or interpreted,"
 	+
 " it's all PROGRAMMING!")
-
 mtpls = "".join(multiple_line_string)
 print(mtpls)
-
-muliple_line_string02 = "I am" + " learning Python3."
-print(muliple_line_string02)
 
 length_string = "Hello Python"
 los = len(length_string)
