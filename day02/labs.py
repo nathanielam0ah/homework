@@ -13,9 +13,9 @@ multiple_line_string = '''
                         '''
 print(multiple_line_string)
 
-multiple_line_string = ("Whether compiled or interpreted, "
+multiple_line_string = ("Whether compiled or interpreted,"
 	+
-"it's all PROGRAMMING!")
+" it's all PROGRAMMING!")
 
 mtpls = "".join(multiple_line_string)
 print(mtpls)
