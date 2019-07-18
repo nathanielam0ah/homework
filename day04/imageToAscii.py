@@ -4,11 +4,11 @@ from PIL import Image
 from PIL import ImageOps
 import xlwt, sys
 
-x = 150
-y = 150
+x = 100
+y = 100
 
-im = Image.open("122.jpg")   #load Image
-im.resize((x,y)).save('resize.jpg')
+im = Image.open("123.jpg")   #load Image
+im.resize((x,y)).save('resize.jpg')	#resizing the Image to the dimensions x and
 
 im = Image.open("resize.jpg")
 output = ImageOps.grayscale(im)
@@ -29,12 +29,12 @@ for pixelx in range(0,x-1):
         elif color <= 190 and color >= 170:ch = "%"
         elif color <= 170 and color >= 150:ch = "&"
         elif color <= 150 and color >= 130:ch = "a"
-        elif color <= 130 and color >= 110:ch = "o"
-        elif color <= 110 and color >= 90:ch = "0"
-        elif color <= 90 and color >= 70:ch = 'L'
-        elif color <= 70 and color >= 50:ch = 'y'
-        elif color <= 50 and color >= 30:ch = "Y"
+        elif color <= 130 and color >= 110:ch = "O"
+        elif color <= 110 and color >= 90:ch = "."
+        elif color <= 90 and color >= 70:ch = '#'
+        elif color <= 70 and color >= 50:ch = '#'
+        elif color <= 50 and color >= 30:ch = "#"
         elif color <= 30 and color >= 10:ch = "H"
-        elif color < 10 and color >= 0:ch = "#"
+        elif color < 10 and color >= 0:ch = "@"
         else:ch = " "
         f.write(ch)
