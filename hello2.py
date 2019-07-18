@@ -1,5 +1,5 @@
 #!/usr/bin/env python
 
-print("hello2")
+print("Hey!")
 name = input ("What is your name? ")
-print(name)
+print("Welcome to Python " + name)
