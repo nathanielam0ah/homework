@@ -1,0 +1,14 @@
+﻿Variable Length Argument in Python.
+
+Python *args and **kwargs.
+
+	A Python function name can use * and ** operators to accept or pass variable length argument list, while with ** a function can accept keyworded variable length argument list.
+Both operators can be mentioned in the function definition or function call. *args and ** kwargs are just the naming conventions , so as to store non-keyworded arguments list into args and keyworded arguments into args list keyworded arguments into kwargs variable. 
+Example:
+
+def myFunction(*args):
+	print args.
+
+MyFunction(1, 2, ‘three’, ‘four’)
+											source: http://www.yourownlinux.com/2016/12/python-function-args-kwargs.html
+
