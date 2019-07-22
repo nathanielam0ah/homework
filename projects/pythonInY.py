@@ -22,3 +22,22 @@ print(4//30)
 
 #mod operation
 print(55 % 6)
+
+#exponentiation
+print(2**4)
+
+#enforce with parentheses
+print((1 + 3) * 2)
+
+#Boolean Operators
+#note the *and* & *or* are case-sensitive
+print(True and False)
+print(True or False)
+
+#equality
+print(1 == 2)
+print(2 == 1)
+
+#inequality
+print(1 != 2)
+print(2 != 1)
