@@ -1,3 +1,11 @@
+Define and Explain with examples variable length argument in Pyhton.
+
+Distinguish between positional arguments and keyword arguments.
+
+Write a python function that takes a digital image and gives an ASCII image.
+install pillow or PIL
+
+
 ﻿Variable Length Argument in Python.
 
 Python *args and **kwargs.
