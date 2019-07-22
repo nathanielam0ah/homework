@@ -1,0 +1,13 @@
+﻿What is a Pythonic code?
+
+A code is said to be Pythonic when it makes good use of the Python idioms, so well that it’s natural or displays it’s fluency. In other words, it means the most widely adopted idioms that are adopted by the Python community.
+Source: https://hub.packtpub.com/write-python-code-or-pythonic-code/
+
+
+
+What is pep8?
+
+PEP8 also known as Python Enhancement Proposal.
+PEP8 defines how a python code should look. PEP 8 is Python's style guide. It's a set of rules for how to format your Python code to maximize its readability. Writing code to a specification helps to make large code bases, with lots of writers, more uniform and predictable, too.
+Source: https://teamtreehouse.com/library/pep-8
+
