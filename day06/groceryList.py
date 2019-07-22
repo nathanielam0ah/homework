@@ -6,7 +6,7 @@ def groceryList():
     while (userinputItem != ":x"):
         userinputItem = input()
         myList.append(userinputItem)
-        if userinputItem == ":x":
+        if userinputItem == ":exit":
             exit()
 
 groceryList()
