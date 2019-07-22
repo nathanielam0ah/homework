@@ -1,0 +1,2 @@
+What is a pythonic code?
+What is pep8?
