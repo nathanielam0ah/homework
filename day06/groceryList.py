@@ -12,6 +12,7 @@ def groceryList():
                 userinputItem = input()
                 myList.append(userinputItem)
                 if (userinputItem == ":c"):
+                    myList.pop()
                     break
         if (menuItem == ":v"):
             print(myList)
