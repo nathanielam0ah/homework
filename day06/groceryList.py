@@ -4,11 +4,11 @@ def groceryList():
     myList = []
     menuItem = None
     userinputItem = None
-    while (menuItem != ":q"):
+    while 1:
         menuItem = input("(:e)dit (:v)iew (:q)uit: ")
         if (menuItem == ":e"):
             print("(enter) to move to next line (:c)ancel")
-            while (userinputItem != ":c"):
+            while 1:
                 userinputItem = input()
                 myList.append(userinputItem)
                 if (userinputItem == ":c"):
