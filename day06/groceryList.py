@@ -1,22 +1,22 @@
 #!/usr/bin/env python
 
 def groceryList():
-    menuItem = ""
     myList = []
-    userinputItem = ""
-    while (menuItem != "exit"):
-        print("grocery list console v1./n enter :edit to edit your list :view to read your list and :exit to close")
-        menuItem = input()
-        if (menuItem == "edit"):
-            print("hit enter to move to a new line and :q to exit")
-            while (userinputItem != ":q"):
+    menuItem = None
+    userinputItem = None
+    while (menuItem != ":q"):
+        menuItem = input("(:e)dit (:v)iew (:q)uit: ")
+        if (menuItem == ":e"):
+            print("(enter) to move to next line (:c)ancel")
+            while (userinputItem != ":c"):
                 userinputItem = input()
                 myList.append(userinputItem)
-                if (userinputItem == ":q"):
+                if (userinputItem == ":c"):
+                    myList.pop()
                     break
-        if (menuItem == ":view"):
+        if (menuItem == ":v"):
             print(myList)
-        elif menuItem == ":exit":
+        if (menuItem) == ":q":
             exit()
 
 groceryList()
