@@ -50,7 +50,7 @@ class Payment(Customer):
     def getPayment(self):
         paymentAmount = float(input("AMOUNT: "))
 
-class attendance:
+class Attendance:
 
     def __init__(self, date, servicetime):
         self.date = date
