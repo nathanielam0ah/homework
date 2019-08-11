@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
 import mysql.connector
+from config import host,user,password,database
 
 mydb = mysql.connector.connect(
-  host="localhost",
-  user="root",
-  passwd="PE.prah111",
-  database="database01"
+  host=host,
+  user=user,
+  passwd=password,
 )
