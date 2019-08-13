@@ -9,3 +9,5 @@ mydb = mysql.connector.connect(
   passwd=password,
   database=database
 )
+
+mycursor = mydb.cursor()
